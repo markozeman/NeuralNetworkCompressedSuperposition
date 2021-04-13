@@ -94,10 +94,10 @@ def get_feature_vector_representation(datasets, proportion_0=0.0):
 
 
 if __name__ == '__main__':
-    # to avoid cuDNN error (https://github.com/tensorflow/tensorflow/issues/24496)
-    config = tf.ConfigProto()
-    config.gpu_options.allow_growth = True
-    sess = tf.Session(config=config)
+    # # to avoid cuDNN error (https://github.com/tensorflow/tensorflow/issues/24496)
+    # config = tf.ConfigProto()
+    # config.gpu_options.allow_growth = True
+    # sess = tf.Session(config=config)
 
     num_of_classes = 10
     num_of_epochs = 10
@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     acc_superposition = superposition_training_cifar(model, datasets, num_of_epochs, num_of_tasks, context_matrices, nn_cnn, batch_size)
 
-    plot_general(acc_superposition, [], ['Superposition with harmonization'],
+    plot_general(acc_superposition, [], ['Compressed Superposition'],
                  '', 'Epoch', 'Accuracy (%)', [10], 0, 60)
 
 

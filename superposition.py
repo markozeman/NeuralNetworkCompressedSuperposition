@@ -213,7 +213,7 @@ if __name__ == '__main__':
     sess = tf.Session(config=config)
 
     dataset = 'mnist'   # 'mnist' or 'cifar'
-    nn_cnn = 'nn'      # 'nn' or 'cnn'
+    nn_cnn = 'nn'      # 'nn' or 'cnn' ('cifar' is only implemented with 'cnn')
     input_size = (28, 28) if dataset == 'mnist' else (32, 32, 3)    # input sizes for MNIST and CIFAR images
     num_of_units = 1000
     num_of_classes = 10

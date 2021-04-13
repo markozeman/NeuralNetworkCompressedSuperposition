@@ -27,7 +27,7 @@ $ pip install -r requirements.txt
 To try the superposition method run *superposition.py* file. You can choose dataset (*mnist* or *cifar*) and model type (*nn* or *cnn*) on lines 215, 216.
 
 
-#### Run superposition with harmonization
+#### Run compressed superposition
 
-To try superposition method with harmonization run *harmonization.py*.
+To try compressed superposition method run *compressed_superposition.py*.
 
