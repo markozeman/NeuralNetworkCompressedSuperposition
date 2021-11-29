@@ -1,6 +1,7 @@
-# Compressed Superposition of Neural Networks for Deep Learning in Edge Computing
+# Compressed Superposition of Neural Networks for Deep Learning in Edge Computing (IJCNN 2021)
 
-This repository contains code written for all experiments mentioned in the article Compressed Superposition of Neural Networks for Deep Learning in Edge Computing.
+This repository contains code written for all experiments mentioned in the paper [Compressed Superposition of Neural Networks for Deep Learning in Edge Computing](https://ieeexplore.ieee.org/document/9533602), which was accepted at the International Joint Conference on Neural Networks 2021.
+
 
 ### Article abstract  
 
